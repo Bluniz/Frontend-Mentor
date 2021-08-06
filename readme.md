@@ -4,6 +4,6 @@ This repository aims to keep all the challenges made in [FrontendMentor](https:/
 
 ### Column-preview-card
 
-![desktop-img](./column-preview-card/.github/desktop.png)
+![desktopImg](./columnPreviewCard/.github/desktop.png)
 
-[View project](./column-preview-card)
+[View project](./columnPreviewCard)

@@ -1,0 +1,139 @@
+:root {
+  --orange: hsl(31, 77%, 52%);
+  --cyan: hsl(184, 100%, 22%);
+  --dark-cyan: hsl(179, 100%, 13%);
+  --white: hsla(0, 0%, 100%, 0.75);
+  --gray: hsl(0, 0%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*! Mobile */
+body {
+  font-size: 0.938rem;
+  background-color: var(--gray);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+}
+
+main {
+  width: 23.438;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  padding: 1.25rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+
+  width: 90%;
+  padding: 1.25rem;
+}
+
+.card img {
+  width: 6.688rem;
+  height: 4.188rem;
+}
+
+.card-content h1 {
+  color: var(--gray);
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  font-size: 3.75rem;
+}
+
+.card-content p {
+  color: var(--white);
+
+  max-width: 14rem;
+}
+
+.card-content a {
+  background-color: var(--gray);
+  border-radius: 3.125rem;
+
+  width: 11.5rem;
+  height: 2.813rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 10px;
+}
+
+.orange {
+  background-color: var(--orange);
+  border-radius: 10px 10px 0 0;
+}
+
+.orange a {
+  color: var(--orange);
+  text-decoration: none;
+}
+
+.cyan {
+  background-color: var(--cyan);
+}
+
+.cyan a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.dark-cyan {
+  background-color: var(--dark-cyan);
+  border-radius: 0 0 10px 10px;
+}
+
+.dark-cyan a {
+  color: var(--dark-cyan);
+  text-decoration: none;
+}
+
+footer .attribution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer .attribution a {
+  text-decoration: none;
+}
+
+/*! Desktop */
+
+@media (min-width: 992px) {
+  main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content {
+    display: flex;
+  }
+
+  .orange,
+  .dark-cyan {
+    border-radius: 0;
+  }
+}

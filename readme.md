@@ -6,4 +6,4 @@ This repository aims to keep all the challenges made in [FrontendMentor](https:/
 
 ## Challenges
 
-1. [column-preview-card]("./column-preview-card")
+1. [column-preview-card](./column-preview-card)

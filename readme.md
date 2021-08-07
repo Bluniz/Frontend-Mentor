@@ -4,6 +4,6 @@ This repository aims to keep all the challenges made in [FrontendMentor](https:/
 
 ### Column-preview-card
 
-![desktopImg](./columnPreviewCard/.github/desktop.svg)
+![desktopImg](https://github.com/Bluniz/Frontend-Mentor/blob/main/columnPreviewCard/.github/desktop.svg)
 
 [View project](./columnPreviewCard)
